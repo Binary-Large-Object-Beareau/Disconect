@@ -1,5 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 #include "LearnDataAssetCharacter.h"
 #include "Engine/LocalPlayer.h"
 #include "Camera/CameraComponent.h"
@@ -194,9 +192,9 @@ void ALearnDataAssetCharacter::Sprint(const FInputActionValue& Value)
 
 }
 
-//////////////////////////////////////////////////////////////////////////
-// Input
 
+//////////////////////////////////////////////////////////////////////////
+// RPCs
 
 void ALearnDataAssetCharacter::ChangeSpeedServerRPC_Implementation(EMovementState MovementState)
 {

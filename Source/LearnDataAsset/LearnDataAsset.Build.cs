@@ -8,7 +8,7 @@ public class LearnDataAsset : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "Networking", "Sockets" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "Networking", "Sockets", "GameplayAbilities", "GameplayTags", "GameplayTasks" });
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		// If you are using Slate UI
